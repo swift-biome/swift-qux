@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "swift-bar",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swift-biome/swift-bar",
+      "state" : {
+        "revision" : "5a28757a39a7799bb9945703a2d8a961318055c9",
+        "version" : "0.1.0"
+      }
+    },
+    {
+      "identity" : "swift-foo",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swift-biome/swift-foo",
+      "state" : {
+        "revision" : "f9fb0991a7dd4552953e61ba9932983a4ba6d954",
+        "version" : "0.3.0"
+      }
+    }
+  ],
+  "version" : 2
+}

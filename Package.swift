@@ -11,7 +11,7 @@ let package = Package(
     dependencies: 
     [
         .package(url: "https://github.com/swift-biome/swift-foo", exact: "0.3.0"),
-        .package(url: "https://github.com/swift-biome/swift-bar", exact: "0.1.0"),
+        .package(url: "https://github.com/swift-biome/swift-bar", exact: "0.2.0"),
     ],
     targets: 
     [

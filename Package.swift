@@ -12,6 +12,7 @@ let package = Package(
     [
         .package(url: "https://github.com/swift-biome/swift-foo", exact: "0.3.0"),
         .package(url: "https://github.com/swift-biome/swift-bar", exact: "0.2.0"),
+        .package(url: "https://github.com/swift-biome/swift-baz", exact: "0.2.0"),
     ],
     targets: 
     [
@@ -19,7 +20,8 @@ let package = Package(
             dependencies: 
             [
                 .product(name: "Foo", package: "swift-foo"),
-                .product(name: "Bar", package: "swift-bar")
+                .product(name: "Bar", package: "swift-bar"),
+                .product(name: "Baz", package: "swift-baz")
             ], 
             path: "sources"),
     ]
